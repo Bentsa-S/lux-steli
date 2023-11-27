@@ -1,0 +1,291 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #E0B545;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b99539;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+body header .header-skroll {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding: 10px 0 10px 0;
+}
+body header .header-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+body main .section-header {
+  background-image: url("../photo/Rectangle 1316.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: calc(200px + 42.7083333333vw);
+  flex-shrink: 0;
+}
+body main .section-calculator {
+  max-width: 100%;
+  height: calc(100px + 21.875vw);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12% 0 12%;
+}
+body main .section-calculator .container-calculator {
+  height: calc(100px + 10.8333333333vw);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body main .section-calculator .container-calculator .title-calculator {
+  color: #000;
+  margin: 0;
+  font-size: calc(14px + 1.1458333333vw);
+  font-weight: 400;
+}
+body main .section-calculator .container-calculator .area-calculator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(5px + 0.8333333333vw);
+  width: calc(100px + 20.0520833333vw);
+}
+body main .section-calculator .container-calculator .area-calculator output {
+  width: calc(15px + 2.34375vw);
+}
+body main .section-calculator .container-calculator .area-calculator input[type=range] {
+  -webkit-appearance: none !important;
+  background: #e1e1e1;
+  height: 3px;
+}
+body main .section-calculator .container-calculator .area-calculator input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  background: #E0B545;
+  border: #ffffff solid 3px;
+  border-radius: 10px;
+  height: 20px;
+  width: 20px;
+}
+body main .section-calculator .container-calculator .type-of-ceiling {
+  display: flex;
+  width: calc(85px + 15.625vw);
+  font-size: calc(5px + 0.8333333333vw);
+  justify-content: space-between;
+  align-items: center;
+}
+body main .section-calculator .container-calculator .ceiling-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(5px + 0.8333333333vw);
+  width: calc(200px + 22.3958333333vw);
+}
+body main .section-calculator .container-calculator .ceiling-price .button {
+  border-radius: 5px;
+  border: none;
+  background: #E0B545;
+  width: 243px;
+  height: 54px;
+}
+body main .section-calculator .swiper {
+  margin: -100px 0 0 0;
+  width: calc(50px + 19.84375vw);
+  height: calc(80px + 29.0104166667vw);
+}
+body main .section-calculator .swiper .swiper-wrapper .swiper-slide img {
+  width: calc(50px + 19.84375vw);
+  height: calc(80px + 29.0104166667vw);
+  flex-shrink: 0;
+}
+body main .section-gallery {
+  padding: 0 calc(30px + 3.6458333333vw) 0 calc(30px + 3.6458333333vw);
+}
+body main .section-gallery .container-gallery {
+  display: grid;
+  grid-gap: calc(3px + 2.34375vw);
+  grid-template-columns: repeat(9, 1fr);
+}
+body main .section-gallery .container-gallery .item-1 {
+  grid-column: 1/5;
+}
+body main .section-gallery .container-gallery .item-2 {
+  grid-column: 5/7;
+}
+body main .section-gallery .container-gallery .item-3 {
+  grid-column: 7/10;
+}
+body main .section-gallery .container-gallery .item-4 {
+  grid-column: 1/6;
+}
+body main .section-gallery .container-gallery .item-5 {
+  grid-column: 6/10;
+}
+body main .section-gallery .container-gallery .item-6 {
+  grid-column: 1/5;
+}
+body main .section-gallery .container-gallery .item-7 {
+  grid-column: 5/7;
+}
+body main .section-gallery .container-gallery .item-8 {
+  grid-column: 7/10;
+}
+body main .section-gallery .container-gallery img {
+  width: 100%;
+  height: calc(70px + 12.3958333333vw);
+}
+body main .section-choice {
+  height: calc(160px + 20.9895833333vw);
+  padding-left: 100px;
+}
+body main .section-choice h3 {
+  font-size: calc(5px + 1.40625vw);
+}
+body main .section-choice .container-flex-choice {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px 0 70px;
+}
+body main .section-choice .container-flex-choice .swiper-choice {
+  position: relative;
+  width: calc(60px + 26.1979166667vw);
+  margin-right: calc(30px + 5.9375vw);
+  overflow: hidden;
+}
+body main .section-choice .container-flex-choice .swiper-choice .slide-choise img {
+  width: calc(160px + 20.9895833333vw);
+  height: calc(88px + 12.5vw);
+}
+body main .section-choice .container-flex-choice .swiper-scrollbar {
+  position: relative;
+  width: calc(60px + 16.8229166667vw);
+  overflow: hidden;
+}
+body main .section-choice .container-flex-choice .swiper-scrollbar .swiper-slide {
+  opacity: 0.6;
+}
+body main .section-choice .container-flex-choice .swiper-scrollbar .swiper-slide img {
+  width: calc(36px + 4.4270833333vw);
+  height: calc(22px + 2.0833333333vw);
+}
+body main .section-choice .container-flex-choice .swiper-scrollbar .swiper-slide-thumb-active {
+  opacity: 1;
+}
+body main .section-choice .container-flex-choice .container-text-choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 328px;
+}
+body main .section-choice .container-flex-choice .container-text-choice .title-choice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+body main .section-offer {
+  background-color: #131313;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 calc(30px + 3.6458333333vw) 0 calc(30px + 3.6458333333vw);
+  font-size: calc(20px + 4.0625vw);
+  height: calc(29px + 9.8958333333vw);
+}
+body main .section-offer p {
+  margin: 0;
+}
+body main .section-offer .tel {
+  font-size: calc(14px + 2.5vw);
+}
+body main .section-reviews {
+  position: relative;
+  margin: auto;
+  margin-top: calc(20px + 3.6458333333vw);
+}
+body main .section-reviews .container-swiper {
+  margin: 0;
+  width: calc(200px + 70.3125vw);
+  overflow: hidden;
+  margin: auto;
+}
+body main .section-reviews .container-swiper .swiper-reviews {
+  height: calc(31px + 17.1875vw);
+  width: calc(50px + 22.3958333333vw);
+}
+body main .section-reviews .container-swiper .swiper-reviews .swiper-wrapper .container-reviews {
+  box-sizing: border-box;
+  padding: calc(17px + 1.71875vw);
+  background: #D9D9D9;
+}
+body main .section-reviews .container-swiper .swiper-reviews .swiper-wrapper .container-reviews .flex-logo {
+  display: flex;
+}
+body main .section-reviews .container-swiper .swiper-reviews .swiper-wrapper .container-reviews .flex-logo .reviews-logo img {
+  width: calc(25px + 3.6458333333vw);
+  height: calc(25px + 3.6458333333vw);
+  border-radius: 50px;
+  margin-right: calc(5px + 1.0416666667vw);
+}
+body main .section-reviews .container-swiper .swiper-reviews .swiper-wrapper .container-reviews .flex-logo .container-username {
+  font-size: calc(5px + 1.0416666667vw);
+}
+body main .section-reviews .container-swiper .swiper-reviews .swiper-wrapper .container-reviews .flex-logo .container-username p {
+  margin: 0;
+  margin-bottom: calc(2px + 1.1979166667vw);
+}
+body main .section-reviews .container-swiper .swiper-reviews .swiper-wrapper .container-reviews p {
+  font-size: calc(5px + 0.6770833333vw);
+}
+body main .section-reviews .swiper-button-prev {
+  width: calc(28px + 2.0833333333vw);
+  height: calc(28px + 2.0833333333vw);
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  left: calc(10px + 2.6041666667vw);
+  top: 40%;
+}
+body main .section-reviews .swiper-button-prev::after {
+  color: #000;
+}
+body main .section-reviews .swiper-button-next {
+  width: calc(28px + 2.0833333333vw);
+  height: calc(28px + 2.0833333333vw);
+  border-radius: 50px;
+  background-color: #D9D9D9;
+  right: calc(10px + 2.6041666667vw);
+  top: 40%;
+}
+body main .section-reviews .swiper-button-next::after {
+  color: #000;
+}
+body main .section-reviews .button {
+  border-radius: 5px;
+  border: none;
+  background: #E0B545;
+  width: calc(43px + 10.4166666667vw);
+  height: calc(10px + 2.2916666667vw);
+}/*# sourceMappingURL=main.css.map */
